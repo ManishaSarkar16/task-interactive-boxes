@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Interactive Boxes</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="outer-container">
+			<div class="task-container">
+				<h1 class="task-heading-text">YAY! It’s BOGO</h1>
+				<form>
+					<div class="accordion-outer show">
+						<div class="accordion-header">
+							<div class="task-checkbox-button">
+								<input type="radio" id="unit1" name="radio-group" checked="">
+								<label class="unit-content" for="unit1">
+									<div class="unit-left-side">
+										<div class="heading-wrapper">
+											<span class="unit-heading">1 Unit</span>
+											<span class="unit-discount-price">10% Off</span>
+										</div>
+										<p class="sub-title">Standard Price</p>
+									</div>
+									<div class="unit-right-side">
+										<span class="price">$10.00 USD</span>
+										<span class="compare-at-price-price">$24.00 USD
+										</span>
+									</div>
+								</label>
+							</div>
+						</div>
+						<div class="accordion-body" id="box1-options">
+							<div class="accordion-row">
+								<div class="accordion-col">
+									<div>
+										#1
+									</div>
+									<div class="form-group">
+										<label for="size1">Size:</label>
+										<select id="size1">
+											<option value="100px">Small</option>
+											<option value="200px">Medium</option>
+											<option value="300px">Large</option>
+										</select>
+									</div>
+								</div>
+								<div class="accordion-col">
+									<div>
+										#2
+									</div>
+									<div class="form-group">
+										<label for="color1">Color:</label>
+										<select id="color1">
+											<option value="red">Red</option>
+											<option value="green">Green</option>
+											<option value="blue">Blue</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-outer">
+						<div class="most-populer-text">
+							MOST POPULAR
+						</div>
+						<div class="accordion-header">
+							<div class="task-checkbox-button">
+								<input type="radio" id="unit2" name="radio-group">
+								<label class="unit-content" for="unit2">
+									<div class="unit-left-side">
+										<div class="heading-wrapper">
+											<span class="unit-heading">1 Unit</span>
+											<span class="unit-discount-price">20% Off</span>
+										</div>
+										<p class="sub-title">Standard Price</p>
+									</div>
+									<div class="unit-right-side">
+										<span class="price">$18.00 USD</span>
+										<span class="compare-at-price-price">$24.00 USD
+										</span>
+									</div>
+								</label>
+							</div>
+						</div>
+						<div class="accordion-body">
+							<div class="accordion-row">
+								<div class="accordion-col">
+									<div>
+										#1
+									</div>
+									<div class="form-group">
+										<label for="size1">Size:</label>
+										<select id="size1">
+											<option value="100px">Small</option>
+											<option value="200px">Medium</option>
+											<option value="300px">Large</option>
+										</select>
+									</div>
+								</div>
+								<div class="accordion-col">
+									<div>
+										#2
+									</div>
+									<div class="form-group">
+										<label for="color1">Color:</label>
+										<select id="color1">
+											<option value="red">Red</option>
+											<option value="green">Green</option>
+											<option value="blue">Blue</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-outer">
+						<div class="accordion-header">
+							<div class="task-checkbox-button">
+								<input type="radio" id="unit3" name="radio-group">
+								<label class="unit-content" for="unit3">
+									<div class="unit-left-side">
+										<div class="heading-wrapper">
+											<span class="unit-heading">3 Unit</span>
+											<span class="unit-discount-price">30% Off</span>
+										</div>
+										<p class="sub-title">Standard Price</p>
+									</div>
+									<div class="unit-right-side">
+										<span class="price">$24.00 USD</span>
+										<span class="compare-at-price-price">$24.00 USD
+										</span>
+									</div>
+								</label>
+							</div>
+						</div>
+						<div class="accordion-body">
+							<div class="accordion-row">
+								<div class="accordion-col">
+									<div>
+										#1
+									</div>
+									<div class="form-group">
+										<label for="size1">Size:</label>
+										<select id="size1">
+											<option value="100px">Small</option>
+											<option value="200px">Medium</option>
+											<option value="300px">Large</option>
+										</select>
+									</div>
+								</div>
+								<div class="accordion-col">
+									<div>
+										#2
+									</div>
+									<div class="form-group">
+										<label for="color1">Color:</label>
+										<select id="color1">
+											<option value="red">Red</option>
+											<option value="green">Green</option>
+											<option value="blue">Blue</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-footer">
+						<span class="free-delivery-text">Free Delivery</span>
+						<span>Total : $18.00 USD</span>
+					</div>
+					<button class="btn" type="submit">
+						<span class="add-icon">+</span>
+						Add to Cart</button>
+					<span class="form-caption">@ Powered by Pumper</span>
+				</form>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
