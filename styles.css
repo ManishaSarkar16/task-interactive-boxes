@@ -31,9 +31,10 @@
   }
   
   .task-heading-text {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     color: #ff6b82;
+    text-align: center;
   }
   
   .task-heading-text {
@@ -289,5 +290,9 @@
     .show .accordion-body {
       padding: 0px 30px 30px;
     }
+
+    .task-heading-text {
+        font-size: 20px;
+      }
   }
   
